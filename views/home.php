@@ -9,7 +9,7 @@
     <div class="row">
         <h2>Les spectacles du jour</h2>
         <?php
-            $req = $db->query('SELECT * FROM cirque ORDER BY id DESC LIMIT 3');
+            $req = $db->query('SELECT * FROM cirque ORDER BY id DESC');
             $spectacles = $req->fetchAll();
             foreach ($spectacles as $spectacle) { ?>
                 <div class="col-sm-12 col-md-4 p-3">

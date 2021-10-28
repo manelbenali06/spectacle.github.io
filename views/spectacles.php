@@ -11,14 +11,15 @@
             <table class="table">
                 <thead>
                     <tr>
-                       <th></th>
+                       <th>N°</th>
                         <th>Nom du Spectacle</th>
                         <th>Nom de la salle</th>
                         <th>Nombre de place</th>
                         <th>Date Du spectacle</th>
                         <th>Prix</th>
                         <th>Photos</th>
-
+                        <th>Description</th>
+                        <th>Actions</th>
                        
                     </tr>
                 </thead>
@@ -34,8 +35,9 @@
                                 <td><?= date('Y-m-d', strtotime($spectacle['date_du_spectacle'])) ?></td>
                                 <td><?= $spectacle['prix'] ?></td>
                                 
-                                <td><img src="assets/img/photos/<?= $spectacle['img'] ?></td>
+                                <td><img src="assets/img/photos/<?= $spectacle['photo'] ?>"></td>
                                 <td><?= substr($spectacle['description'], 0, 200) ?></td>
+                                
                                 
                                 <td><a href="index.php?page=spectacle&spectacles=<?= $spectacle['id'] ?>"><i class="fas fa-eye"></i></a></td>
                             </tr>

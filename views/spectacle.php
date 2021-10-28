@@ -14,7 +14,7 @@
         </div>
         
         <div class="col-sm-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 my-3">
-            <img src="assets/img/photos/<?= $cirque['img'] ?>
+            <img src="assets/img/photos/<?= $cirque['photo'] ?>" alt="<?= $cirque['alt'] ?>" class="w-100">
         </div>
 
         <div class="col-12">

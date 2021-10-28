@@ -1,61 +1,92 @@
-/* **************************************** RESET **************************************** */
+
 
     * {
-        margin: 0;
-        padding: 0;
+        margin: 5 px;
+        padding: 10 px;
         list-style-type: none;
         text-decoration: none;
     }
+td{
+    text-align:left;
 
-/* **************************************** GLOBAL **************************************** */
+}
 
-    * {
-        font-weight: lighter;
+   thead {
+    text-align: center;
+    color: chocolate;
+    padding: 5px;
+   
+    
+    white-space: normal;
+}
+    text {
+        text-align: center;
+        overflow-wrap: break-word;
     }
 
-    a {
-        text-decoration: none;
-    }
+    
 
     h1 {
         font-size: 2em;
-        font-weight: 300;
+        color: brown;
         margin-bottom: 1em;
     }
 
     h2 {
         font-size: 1.5em;
-        font-weight: 300;
+        color: brown;
         margin-top: 1em;
         margin-bottom: 1em;
     }
 
-    h3 {
-        font-size: 1.25em;
-    }
+    
 
     p {
-        text-align: justify;
+        text-align: center;
+    }
+    td {
+   text-align: start;
+
     }
 
-/* **************************************** HEADER **************************************** */
-
+    img.w-100{
+        margin-bottom: 5px;
+        max-height: 200px;
+    }
     header nav img {
         max-height: 35px;
         background-color: burlywood;
     }
     
 
-/* **************************************** MAIN **************************************** */
-
-    table img {
-        max-width: 200px;
+    img{
+        border:1px solid black;
     }
 
-/* **************************************** FOOTER **************************************** */
+    table img {
+        max-width: 100px;
+    }
+
+
 container-fluid {
     background-color: burlywood;
 }
 header nav image {
     max-height: 40px;
 }
+
+html {
+    font-family: arial;
+}
+
+input {
+    border: 1px solid black;
+    padding:5px 10px;
+    margin-left: 10px;
+}
+a {
+    
+    color:brown;
+    font-weight: bold;
+    line-height: 5px;
+    

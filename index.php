@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 
 <html lang="fr">
+<link rel="stylesheet" href="../assets/css/style.css">
 
     <head>
         <?php require_once('views/head.php') ?>
