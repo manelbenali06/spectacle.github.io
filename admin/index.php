@@ -49,7 +49,7 @@ $spectacles = $req->fetchAll();
                             <td><?= empty($cirque['photo']) ? '(pas de photo pour cette scene)' : "<img src=\"../assets/img/photos/{$cirque['photo']}\">" ?></td>
                             <td><?= $cirque['description'] ?></td>
                             <td>
-                                <a href="#"><i class="fas fa-pen-square"></i></a><br>
+                                <a href="form.php?update=<?= $cirque['id'] ?>"><i class="fas fa-pen-square"></i></a><br>
                                 <a href="traitement.php?delete=<?= $cirque['id'] ?>"><i class="fas fa-trash"></i></a>
                             </td>
                         </tr>

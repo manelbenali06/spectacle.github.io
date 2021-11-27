@@ -40,6 +40,8 @@
                                 
                                 
                                 <td><a href="index.php?page=spectacle&spectacles=<?= $spectacle['id'] ?>"><i class="fas fa-eye"></i></a></td>
+                                <td><a href="index.php?page=spectacle&spectacles=<?= $spectacle['id'] ?>"><i class="fas fa-trash"></i></a></td>
+                                <td><a href="index.php?page=spectacle&spectacles=<?= $spectacle['id'] ?>"><i class="fas fa-pen-square"></i></a></td>
                             </tr>
                         <?php 
                             $i++;   
